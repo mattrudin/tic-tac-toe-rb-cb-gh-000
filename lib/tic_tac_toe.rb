@@ -42,5 +42,5 @@ end
 def turn
   input = gets.strip
   index = input_to_index(input)
-  valid_move?(board, index) ? move(board,index) && display_board(board) ? gets.strip
+  valid_move?(board, index) ? move(board,index) && display_board(board) : gets.strip
 end
