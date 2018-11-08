@@ -24,7 +24,7 @@ def input_to_index(user_input)
 end
 
 def move(board, index, character = 'X')
-  valid_move?(board, index) ? return board[index] = character : false
+  valid_move?(board, index) ? board[index] = character : false
 end
 
 def position_taken?(board, index)
